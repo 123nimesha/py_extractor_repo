@@ -61,7 +61,7 @@ def loadCookies():
         chrome_prefs["translate_whitelists"] = {"fr":"en","zh-CN":"en","zh-TW":"en","de":"en","ar":"en"}
         chrome_prefs["translate"] = {"enabled":"true"}
         option.experimental_options["prefs"] = chrome_prefs
-        driver = uc.Chrome(use_subprocess= True, options=option, headless=False)
+        driver = uc.Chrome(use_subprocess= True, headless=False)
         driver.get(
             'https://www.tiktok.com/login/phone-or-email/email')
         
