@@ -30,7 +30,7 @@ def saveCookies(config):
         #options.add_argument('proxy-server=106.122.8.54:3128')
         #options.add_argument(r'--user-data-dir=C:\Users\suppo\AppData\Local\Google\Chrome\User Data\Default')
 
-        driver = uc.Chrome(use_subprocess= True, options=option, headless=False)
+        driver = uc.Chrome(use_subprocess= True, options=option, headless=True)
         driver.get('https://www.tiktok.com/login/phone-or-email/email')
 
         driver.find_element(By.CSS_SELECTOR, 'input[placeholder="Email or username"]').send_keys(email)
@@ -61,7 +61,7 @@ def loadCookies():
         chrome_prefs["translate_whitelists"] = {"fr":"en","zh-CN":"en","zh-TW":"en","de":"en","ar":"en"}
         chrome_prefs["translate"] = {"enabled":"true"}
         option.experimental_options["prefs"] = chrome_prefs
-        driver = uc.Chrome(use_subprocess= True, options=option, headless=True)
+        driver = uc.Chrome(use_subprocess= True, options=option, headless=False)
         driver.get(
             'https://www.tiktok.com/login/phone-or-email/email')
         

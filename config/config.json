@@ -25,6 +25,30 @@
         "user_name":"ceycds",
         "password":"cds@1234",
         "search_url":["https://www.tiktok.com/search/user?q=parissaintgermain&lang=en","https://www.tiktok.com/search/user?q=psg&lang=en","https://www.tiktok.com/search/user?q=messi-psg&lang=en","https://www.tiktok.com/search/user?q=paris-st-germain&lang=en","https://www.tiktok.com/search/user?q=paris-saint-germain&lang=en","https://www.tiktok.com/search/user?q=messi-no30&lang=en","https://www.tiktok.com/search/user?q=messi-paris&lang=en","https://www.tiktok.com/search/user?q=psg-maillot&lang=en","https://www.tiktok.com/search/user?q=psg-jersey&lang=en","https://www.tiktok.com/search/user?q=paris-sg&lang=en","https://www.tiktok.com/search/user?q=shirt-psg&lang=en","https://www.tiktok.com/search/user?q=ici-psg&lang=en","https://www.tiktok.com/search/user?q=ici-messi&lang=en"]
-    }
+    },
+    "search_terms":{
+      "olympic":[
+      "paris", "2024", "terre", "jeux", "olympic", "games", "olympique"
+      ]
+  },
+  "dnpedia_domain":{
+      "url":"https://www.dnpedia.com/tlds/search.php",
+      "googlesheet_auth":{
+          "service_account_file":"keys.json",
+          "scope":["https://www.googleapis.com/auth/spreadsheets"],
+          "spreadsheet_id":"132KE57G1sQNGF14uOZE53ylZzDJSbvAR2eCswKYnWOY",
+          "spreadsheet_name":"Daily_Olympic_Domains_DomainPunch_20221006"
+      }
+
+  },
+  "google_domain":{
+      "url":"https://domains.google.com/registrar/search?searchTerm=&hl=en&tab=1",
+      "googlesheet_auth":{
+          "service_account_file":"keys.json",
+          "scope":["https://www.googleapis.com/auth/spreadsheets"],
+          "spreadsheet_id":"1eT5lWsvyJIHoB1qEIbG_M5Dr2DxGGTY7eIsN88qjEeY",
+          "spreadsheet_name":"Daily_Olympic_Domains_GoogleDomains_20221006"
+      }
+  }
     
 }
