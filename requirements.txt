@@ -1,0 +1,6 @@
+gspread
+selenium
+google-api-python-client
+webdriver-manager
+undetected-chromedriver
+packaging

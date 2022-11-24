@@ -1,0 +1,30 @@
+{
+    "env": "production",
+    "credentials": {
+      "ebay_app_id": "CeyDigit-HawkEye-PRD-7cd47542d-9b159886"
+    },
+    "development_database": {
+      "host": "localhost",
+      "user": "root",
+      "password": "",
+      "database": "scrapers"
+    },
+    "production_database": {
+      "host": "lbportal.cyjchbsrsbjl.us-east-1.rds.amazonaws.com",
+      "user": "scraping_user",
+      "password": "PQRTt42EhBbhsarq",
+      "database": "scrape_db"
+    },
+    "slack_url": "https://hooks.slack.com/services/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",
+    "tiktok":{
+        "keys":{
+          "client_key":"awjcujrdtf6j63ay",
+          "client_secret":"a3938eaebed16bccb3227bf9a623cc68"
+        },
+        "base_url":"https://www.tiktok.com/search/user?q=&lang=en",
+        "user_name":"ceycds",
+        "password":"cds@1234",
+        "search_url":["https://www.tiktok.com/search/user?q=parissaintgermain&lang=en","https://www.tiktok.com/search/user?q=psg&lang=en","https://www.tiktok.com/search/user?q=messi-psg&lang=en","https://www.tiktok.com/search/user?q=paris-st-germain&lang=en","https://www.tiktok.com/search/user?q=paris-saint-germain&lang=en","https://www.tiktok.com/search/user?q=messi-no30&lang=en","https://www.tiktok.com/search/user?q=messi-paris&lang=en","https://www.tiktok.com/search/user?q=psg-maillot&lang=en","https://www.tiktok.com/search/user?q=psg-jersey&lang=en","https://www.tiktok.com/search/user?q=paris-sg&lang=en","https://www.tiktok.com/search/user?q=shirt-psg&lang=en","https://www.tiktok.com/search/user?q=ici-psg&lang=en","https://www.tiktok.com/search/user?q=ici-messi&lang=en"]
+    }
+    
+}
